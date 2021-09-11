@@ -1,0 +1,20 @@
+[
+{
+  "modid": "techniphilia-base",
+  "name": "Techniphilia Base",
+  "description": "A component of the Techniphilia series.
+
+Everything you need to get started with supertechnologies.",
+  "version": "0.0.0.0",
+  "mcversion": "1.12.2",
+  "url": "http://javaserver.net/techniphilia/base",
+  "updateUrl": "",
+  "authorList": ["TeraV"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [
+    "techniphilia-core"
+  ]
+}
+]

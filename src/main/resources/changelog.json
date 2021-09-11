@@ -9,8 +9,8 @@
             "release": false,
             "build_date": "",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Beginning of project."
             ]

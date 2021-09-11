@@ -17,10 +17,11 @@ public class ComponentBaseLoader {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
+        logger.info("TechniphiliaBase: preInit");
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        
+        logger.info("Hello blocky world!");
     }
 }

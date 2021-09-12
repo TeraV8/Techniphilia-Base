@@ -32,14 +32,14 @@ public class ComponentBaseLoader {
     }
     
     @SubscribeEvent
-    public void registerItems(RegistryEvent.Register<Item> event) {
+    public static void registerItems(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
         registry.register(ItemWheelWood.instance());
         OreDictionary.registerOre("wheelWood", ItemWheelWood.instance());
     }
     
     @SubscribeEvent
-    public void registerRenders(ModelRegistryEvent event) {
+    public static void registerRenders(ModelRegistryEvent event) {
         ComponentCoreLoader.registerRender(ItemWheelWood.instance());
     }
 }

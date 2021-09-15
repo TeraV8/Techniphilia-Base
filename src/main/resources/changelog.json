@@ -2,6 +2,23 @@
     "current_version": "0.0.1.0",
     "version_history": [
         {
+            "version_id": "0.0.1.1",
+            "project-authors": [
+                "TeraV"
+            ],
+            "update-authors": [
+                "TeraV"
+            ],
+            "release": false,
+            "build_date": "09/14/2021",
+            "release_date": null,
+            "functional": null,
+            "stable": null,
+            "features": [
+                "Completed implementation of Wooden Wheel."
+            ]
+        },
+        {
             "version_id": "0.0.1.0",
             "authors": [
                 "TeraV"

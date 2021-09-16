@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:shaped_crafting",
+    "pattern": [
+        "/O/",
+        "O/O",
+        "/O/"
+    ],
+    "key": {
+        "/": {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        },
+        "O": {
+            "type": "forge:ore_dict",
+            "ore": "plankWood"
+        }
+    },
+    "result": {
+        "item": "techniphilia:wheel_wood",
+        "count": 1,
+        "data": 0
+    }
+}

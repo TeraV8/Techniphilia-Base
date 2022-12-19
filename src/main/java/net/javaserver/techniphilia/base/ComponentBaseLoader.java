@@ -1,5 +1,6 @@
 package net.javaserver.techniphilia.base;
 
+import net.javaserver.techniphilia.base.common.ItemWheelStone;
 import net.javaserver.techniphilia.base.common.ItemWheelWood;
 import net.javaserver.techniphilia.base.common.ModRegistry;
 import net.javaserver.techniphilia.core.ComponentCoreLoader;
@@ -36,10 +37,13 @@ public class ComponentBaseLoader {
         IForgeRegistry<Item> registry = event.getRegistry();
         registry.register(ItemWheelWood.instance());
         OreDictionary.registerOre("wheelWood", ItemWheelWood.instance());
+        registry.register(ItemWheelStone.instance());
+        OreDictionary.registerOre("wheelStone", ItemWheelStone.instance());
     }
     
     @SubscribeEvent
     public static void registerRenders(ModelRegistryEvent event) {
         ComponentCoreLoader.registerRender(ItemWheelWood.instance());
+        ComponentCoreLoader.registerRender(ItemWheelStone.instance());
     }
 }

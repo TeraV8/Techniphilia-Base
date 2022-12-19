@@ -12,8 +12,8 @@
             "release": false,
             "build_date": "12/19/2022",
             "release_date": null,
-            "functional": null,
-            "stable": null,
+            "functional": true,
+            "stable": true,
             "features": [
                 "Added Stone Wheel."
             ]
